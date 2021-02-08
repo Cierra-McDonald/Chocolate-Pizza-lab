@@ -3,32 +3,24 @@ import './App.css';
 import {Switch,BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Home from './components/Home'
 import OurHeader from './components/Header'
+import OurFooter from './components/Footer'
+import ImageSection from './components/ImageSection'
 
 
 
 function App() {
   return (
     <div className="App">
+   <Router>
+      < OurHeader/>
       <header className="App-header">
-        <Router>
-          <Switch>
-            < OurHeader/>
-            <Route path="/Home" component={Home}/>
-            <nav><Link to ='/Home'> Home </Link></nav>
-          </Switch>
-        </Router>
-      <p>
-          Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <div>Hello!</div>
+      < ImageSection/>
       </header>
+      < OurFooter/>
+    </Router>
     </div>
   );
 }
-// function OurHeader(props) { 
-//   return <h1>Hello, {props.name}</h1>
-// }
-
 
 
 
