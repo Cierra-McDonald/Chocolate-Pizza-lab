@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import {Switch,BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Home from './components/Home'
+import OurHeader from './components/Header'
 
 
 
@@ -11,6 +12,7 @@ function App() {
       <header className="App-header">
         <Router>
           <Switch>
+            < OurHeader/>
             <Route path="/Home" component={Home}/>
             <nav><Link to ='/Home'> Home </Link></nav>
           </Switch>
@@ -23,19 +25,11 @@ function App() {
     </div>
   );
 }
+// function OurHeader(props) { 
+//   return <h1>Hello, {props.name}</h1>
+// }
 
-class OurHeader extends React.Component { 
-  render() { 
-    return ( 
-      <div>
-        <h1>Hi, I am the Header!</h1>
-      </div>
-    )
-  }
-}
 
-function OurHeader(props) { 
-  return <h1>Hello, {props.name}</h1>
-}
+
 
 export default App;
