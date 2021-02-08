@@ -11,3 +11,4 @@ class ImageSection extends React.Component {
   }
 
   export default ImageSection;
+  
