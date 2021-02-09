@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: pink;
+  border-color: #61dafb;
+  border-style: solid;
+}
+
+footer {
+  background-color: white;
+}
+
+.chocolate-images {
+  height: 200px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.recipe-container { 
+  background-color: lightcyan;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.recipe-paragraph { 
+  color: black;
+  font-size: 17px;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.social-media { 
+  height: 30px;
+  width: 30px;
+  text-align: right; 
+
+}
+
+.header-div { 
+  display: flex;
+}
+.social-nav { 
+  margin-right: 5px;
+}
+.ingredient-container { 
+  color: black;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 20px;
+
+}
+.ingredient { 
+  text-align: left;
+  margin-left: 5px;
+}
+.our-list { 
+  background-color: brown;
+}
+.direct-title { 
+  color: black;
+}
