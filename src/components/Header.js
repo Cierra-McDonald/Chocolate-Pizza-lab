@@ -12,13 +12,13 @@ class OurHeader extends React.Component {
         <div class = "header-div">
           <nav class = "social-nav">
           <a href= "https://www.facebook.com/">   
-            <img src= {facebook} class = "social-media"/>
+            <img src= {facebook} alt='chocolatePizza' class = "social-media"/>
           </a>
           <a href= "https://twitter.com/">
-            <img src= {twitter} class = "social-media"/>
+            <img src= {twitter} alt='chocolatePizza' class = "social-media"/>
           </a>
           <a href = "https://www.instagram.com/">
-            <img src= {instagram} class = "social-media"/>
+            <img src= {instagram} alt='chocolatePizza' class = "social-media"/>
           </a>
           </nav>
          <nav>
