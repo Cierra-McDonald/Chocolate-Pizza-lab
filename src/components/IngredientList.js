@@ -13,9 +13,10 @@ class OurIngredientList extends React.Component {
         singleCookieObject
       } />)
       return ( 
-        <>
+        <div>
+          <h1>Ingredients:</h1>
         { cookieList }
-        </>
+        </div>
       );
     }
   }

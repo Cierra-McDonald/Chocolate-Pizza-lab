@@ -4,6 +4,7 @@ class OurRecipe extends React.Component {
     render() { 
       return ( 
         <div class = "recipe-container"> 
+          <h1 class="direct-title">Directions:</h1>
             <p class = "recipe-paragraph">Position the oven rack on the bottom of the oven and preheat to 450 degrees F.</p>
 
             <p class = "recipe-paragraph">Line a heavy large baking sheet with parchment paper. Roll out the dough to a 9-inch-diameter round. Transfer the dough to the prepared baking sheet. Using your fingers, make indentations all over the dough. Brush the dough with butter, then bake until the crust is crisp and pale golden brown, about 20 minutes. Immediately spread the chocolate-hazelnut spread over the pizza then sprinkle all the chocolate chips over. Bake just until the chocolate begins to melt, about 1 minute. Sprinkle the hazelnuts over the pizza. Cut into wedges and serve.</p>

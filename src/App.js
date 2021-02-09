@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
       < ImageSection/>
       < OurRecipe/>
-      < OurIngredientList />
+      < OurIngredientList class = "our-list" />
       </header>
       < OurFooter/>
     </Router>

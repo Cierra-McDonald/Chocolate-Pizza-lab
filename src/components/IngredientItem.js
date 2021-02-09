@@ -2,12 +2,14 @@ import React from 'react';
 
 class OurIngredientItem extends React.Component { 
     render() { 
+  
       return ( 
-        <div>
-            <p>{this.props.cookieProp.amount}</p>
-            <p>{this.props.cookieProp.name}</p>
-
-        </div>
+        
+          <div class = "ingredient-container">
+            <div class ="ingredient">{this.props.cookieProp.amount}</div>
+            <div class ="ingredient">{this.props.cookieProp.name}</div>
+          </div>
+        
       )
     }
   }
