@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css';
 import {Switch,BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import Home from './Components/Home'
-import OurHeader from './Components/Header'
-import OurFooter from './Components/Footer'
-import ImageSection from './Components/ImageSection'
-import OurRecipe from './Components/Recipe';
-import OurIngredientList from './Components/IngredientList'
+import Home from './components/Home'
+import OurHeader from './components/Header'
+import OurFooter from './components/Footer'
+import ImageSection from './components/ImageSection'
+import OurRecipe from './components/Recipe';
+import OurIngredientList from './components/IngredientList'
 import pizzaCookie from './data.js'
 
 
