@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css';
 import {Switch,BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import Home from './components/Home'
-import OurHeader from './components/Header'
-import OurFooter from './components/Footer'
-import ImageSection from './components/ImageSection'
+import Home from './Components/Home'
+import OurHeader from './Components/Header'
+import OurFooter from './Components/Footer'
+import ImageSection from './Components/ImageSection'
 
 
 
