@@ -4,7 +4,7 @@ class OurFooter extends React.Component {
     render() { 
       return ( 
         <footer>
-          <h1>Hi, I am the FOOTER!</h1>
+          C and C's Cookies 2021
         </footer>
       )
     }

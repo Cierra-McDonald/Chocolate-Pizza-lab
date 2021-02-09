@@ -5,6 +5,8 @@ import Home from './Components/Home'
 import OurHeader from './Components/Header'
 import OurFooter from './Components/Footer'
 import ImageSection from './Components/ImageSection'
+import OurRecipe from './Components/Recipe';
+import OurIngredientList from './Components/IngredientList'
 
 
 
@@ -15,6 +17,8 @@ function App() {
       < OurHeader/>
       <header className="App-header">
       < ImageSection/>
+      < OurRecipe/>
+      < OurIngredientList />
       </header>
       < OurFooter/>
     </Router>

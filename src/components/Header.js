@@ -1,4 +1,7 @@
 import React from 'react';
+import facebook from '../images/facebook2.png'
+import twitter from '../images/twitter.png' 
+import instagram from '../images/instagram.png'
 
 
 import { Link } from 'react-router-dom'
@@ -6,13 +9,18 @@ import { Link } from 'react-router-dom'
 class OurHeader extends React.Component { 
     render() { 
       return ( 
-        <div>
-          <h1>Hi! We're making Chocolate Pizza!</h1>
-          <div>
-          </div>
-          <div img src= ""></div>
-          <div img src= ""></div>
-          <h1>Hi, I am the Header!</h1>
+        <div class = "header-div">
+          <nav class = "social-nav">
+          <a href= "https://www.facebook.com/">   
+            <img src= {facebook} class = "social-media"/>
+          </a>
+          <a href= "https://twitter.com/">
+            <img src= {twitter} class = "social-media"/>
+          </a>
+          <a href = "https://www.instagram.com/">
+            <img src= {instagram} class = "social-media"/>
+          </a>
+          </nav>
          <nav>
          <Link to ='/Home'> Home </Link>
        </nav>
