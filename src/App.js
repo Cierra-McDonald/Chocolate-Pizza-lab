@@ -7,6 +7,7 @@ import OurFooter from './Components/Footer'
 import ImageSection from './Components/ImageSection'
 import OurRecipe from './Components/Recipe';
 import OurIngredientList from './Components/IngredientList'
+import pizzaCookie from './data.js'
 
 
 
