@@ -1,5 +1,7 @@
 import React from 'react';
-import logo192 from '../public';
+
+
+import { Link } from 'react-router-dom'
 
 class OurHeader extends React.Component { 
     render() { 
@@ -7,13 +9,17 @@ class OurHeader extends React.Component {
         <div>
           <h1>Hi! We're making Chocolate Pizza!</h1>
           <div>
-          <img src= {logo192.png} alt = "" />
           </div>
-          <div img src= "">pic2</div>
-          <div img src= "">pic3</div>
-        </div>
+          <div img src= ""></div>
+          <div img src= ""></div>
+          <h1>Hi, I am the Header!</h1>
+         <nav>
+         <Link to ='/Home'> Home </Link>
+       </nav>
+       </div>
       )
     }
   }
 
   export default OurHeader;
+ 
